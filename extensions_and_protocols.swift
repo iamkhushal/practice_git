@@ -95,7 +95,7 @@ motorolaPhone.cameraFeature(pixelValue: "45 MP")
 class SamsungPhones: SmartPhone {
 
   func callingFeature() -> String {
-    print("Samsung implemented calling feature")
+    print("Samsung implemented soemthing added calling feature")
     return "Noise Cancellation - 25db"
   }
 
