@@ -18,7 +18,7 @@ class Car {
   }
 }
 
-let carOne = Car(modelName: "Hyundai i20", engineCapacity: "1500 cc", modelYear: 2022, fuelCapacity: 35)
+let carOne = Car(modelName: "Hyundai i20", engineCapacity: "1500 dd", modelYear: 2022, fuelCapacity: 35)
 let carTwo = Car(modelName: "Tata Nexon", engineCapacity: "2200 cc", modelYear: 2023, fuelCapacity: 45)
 
 carOne.showCarFuelDetails()
