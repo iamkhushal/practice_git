@@ -108,7 +108,7 @@ class SamsungPhones: SmartPhone {
   }
 
   func samsungRelatedFeatures() {
-    print("Samsung implemented samsung related features")
+    print("Samsung implemented something added samsung related features")
   }
 }
 
