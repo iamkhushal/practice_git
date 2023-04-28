@@ -19,7 +19,7 @@ class Car {
 }
 
 let carOne = Car(modelName: "Hyundai i20", engineCapacity: "1500 dd", modelYear: 2022, fuelCapacity: 35)
-let carTwo = Car(modelName: "Tata Nexon", engineCapacity: "2200 cc", modelYear: 2023, fuelCapacity: 45)
+let carTwo = Car(modelName: "CRETA", engineCapacity: "2200 cc", modelYear: 2023, fuelCapacity: 45)
 
 carOne.showCarFuelDetails()
 carTwo.showCarFuelDetails()
@@ -63,7 +63,7 @@ class MotorolaSmartPhones: SmartPhone {
 
   func callingFeature() -> String {
     print("Motorola implemented calling feature")
-    return "Noise Cancellation - 10db"
+    return "Noise Cancellation - 20db"
   }
 
   func messagingFeature() {
@@ -96,15 +96,15 @@ class SamsungPhones: SmartPhone {
 
   func callingFeature() -> String {
     print("Samsung implemented calling feature")
-    return "Noise Cancellation - 15db"
+    return "Noise Cancellation - 25db"
   }
 
   func messagingFeature() {
-    print("Samsung implemented messaging feature")
+    print("Samsung implemented messaging .. feature")
   }
 
   func cameraFeature(pixelValue: String) {
-    print("Samsung implemented camera feature wih \(pixelValue)")
+    print("Samsung implemented camera .. feature wih \(pixelValue)")
   }
 
   func samsungRelatedFeatures() {
